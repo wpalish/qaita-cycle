@@ -1,0 +1,112 @@
+{
+  "captures": [
+    {
+      "file": "docs/zero-preview-1280.jpg",
+      "source": ".impeccable/review/zero-preview-1280.jpg",
+      "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS",
+      "sha256": "c8946db4af9c0213c9c040df868da8d0087686086d34733583a076a09e150cfe",
+      "opened_valid": true,
+      "stage": "historical initial UI review, before F1 recovery fix",
+      "app_sha256": "c3ece4d7643d43ef86f312b5fbdd51d6e7aabd5f018dd4341679045a192bd93c"
+    },
+    {
+      "file": "docs/preview-1280.jpg",
+      "source": ".impeccable/review/preview-1280.jpg",
+      "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS",
+      "sha256": "cfaac85a337731cdbda4739e86018ac602cc868cd8a0c7794f7aa9f9bd4a832b",
+      "opened_valid": true,
+      "stage": "historical initial UI review, before F1 recovery fix",
+      "app_sha256": "c3ece4d7643d43ef86f312b5fbdd51d6e7aabd5f018dd4341679045a192bd93c"
+    },
+    {
+      "file": "docs/owner-form-1280.jpg",
+      "source": ".impeccable/review/owner-form-1280.jpg",
+      "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS",
+      "sha256": "fb4afd6d0bc6cfbbe7c4cd112bf25ab2e88e733751d94cb24713cb200fcfe4df",
+      "opened_valid": true,
+      "stage": "historical initial UI review, before F1 recovery fix",
+      "app_sha256": "c3ece4d7643d43ef86f312b5fbdd51d6e7aabd5f018dd4341679045a192bd93c"
+    },
+    {
+      "file": "docs/stale-outcome-1280.jpg",
+      "source": ".impeccable/review/stale-outcome-1280.jpg",
+      "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS",
+      "sha256": "1ddacec9417c935b70197ed125b9c6ae27c649a9316902c60543c8bfdf7369a7",
+      "opened_valid": true,
+      "stage": "historical initial UI review, before F1 recovery fix",
+      "app_sha256": "c3ece4d7643d43ef86f312b5fbdd51d6e7aabd5f018dd4341679045a192bd93c"
+    },
+    {
+      "file": "docs/zero-saved-1280.jpg",
+      "source": ".impeccable/review/zero-saved-1280.jpg",
+      "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS",
+      "sha256": "2b1ef7cd1f74e773c98fba6397a0cce84108fa4e6b0b9ce0d55fd948d1c69c3d",
+      "opened_valid": true,
+      "stage": "historical initial UI review, before F1 recovery fix",
+      "app_sha256": "c3ece4d7643d43ef86f312b5fbdd51d6e7aabd5f018dd4341679045a192bd93c"
+    },
+    {
+      "file": "docs/early-refusal-1280.jpg",
+      "source": ".impeccable/review/early-refusal-1280.jpg",
+      "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS",
+      "sha256": "490210ec13adb4891a20a1e92cdef2b27bcf241d4ee6b9e01e1b37612dbd1540",
+      "opened_valid": true,
+      "stage": "historical initial UI review, before F1 recovery fix",
+      "app_sha256": "c3ece4d7643d43ef86f312b5fbdd51d6e7aabd5f018dd4341679045a192bd93c"
+    },
+    {
+      "file": "docs/completed-1280.jpg",
+      "source": ".impeccable/review/completed-1280.jpg",
+      "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS",
+      "sha256": "e9c9db5e33a3b01068dc3ad112432c641f639f6232ee3f9ca9cc7ce00ef52e2b",
+      "opened_valid": true,
+      "stage": "historical initial UI review, before F1 recovery fix",
+      "app_sha256": "c3ece4d7643d43ef86f312b5fbdd51d6e7aabd5f018dd4341679045a192bd93c"
+    },
+    {
+      "file": "docs/stale-window-1280.jpg",
+      "source": ".impeccable/review/stale-window-1280.jpg",
+      "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS",
+      "sha256": "109d4a876e3198538b9bb61103d5960ec9875e0ea6b7896ac4d121357fa9fcb4",
+      "opened_valid": true,
+      "stage": "historical initial UI review, before F1 recovery fix",
+      "app_sha256": "c3ece4d7643d43ef86f312b5fbdd51d6e7aabd5f018dd4341679045a192bd93c"
+    },
+    {
+      "file": "docs/window-saved-1280.jpg",
+      "source": ".impeccable/review/window-saved-1280.jpg",
+      "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS",
+      "sha256": "692e9a1df4066c2d13a77cf15db99029ccdd8a8637ad032cd5e2088b41fb142e",
+      "opened_valid": true,
+      "stage": "historical initial UI review, before F1 recovery fix",
+      "app_sha256": "c3ece4d7643d43ef86f312b5fbdd51d6e7aabd5f018dd4341679045a192bd93c"
+    },
+    {
+      "file": "docs/f1-pending-refreshed-1280.jpg",
+      "source": ".impeccable/review/f1-pending-refreshed-1280.jpg",
+      "stage": "current focused F1 verdict evidence",
+      "origin": "Unedited full-page isolated localhost:8899 synthetic fixture;actual1280CSS",
+      "sha256": "25a4fd12cc8a9134f19cd8b10152600c0c68552a679051f52bbb8fe7ef4d1a54",
+      "opened_valid": true,
+      "app_sha256": "7887c2ac4aa57709fe6178b51980b184357db692dee4f5e9c12e64ac4344d85b"
+    },
+    {
+      "file": "docs/f1-resolved-retained-1280.jpg",
+      "source": ".impeccable/review/f1-resolved-retained-1280.jpg",
+      "stage": "current focused F1 verdict evidence",
+      "origin": "Unedited full-page isolated localhost:8899 synthetic fixture;actual1280CSS",
+      "sha256": "e50465b428cb7acf10cd7454fdd364dcc7ab3b82fe7677b9bd97515f3120b5a6",
+      "opened_valid": true,
+      "app_sha256": "7887c2ac4aa57709fe6178b51980b184357db692dee4f5e9c12e64ac4344d85b"
+    },
+    {
+      "file": "docs/current-zero-window-1280.jpg",
+      "stage": "current main afterF1,read-only zero-window unchanged",
+      "origin": "Unedited full-page IAB127.0.0.1:8856;actual1280CSS/scrollWidth1280",
+      "sha256": "20061783076628b1390bc1393d2f51e9e40b86275986aa81b379ae20d6868201",
+      "opened_valid": true,
+      "review": "Not a new independent review capture"
+    }
+  ],
+  "no_pixel_editing": true
+}

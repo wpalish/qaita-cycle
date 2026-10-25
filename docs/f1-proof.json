@@ -1,0 +1,24 @@
+{
+  "scenario": "F1 recovery after stale form or another explicit owner-session result",
+  "fixture_origin": "http://localhost:8899",
+  "main_origin": "http://127.0.0.1:8856",
+  "main_preserved": "wholeworkspace/audit13equalrestartafter",
+  "checks": [
+    "rev4refreshwholeworkspace/auditidentical,statuscompleted/noteexact",
+    "explicit submitrev5oneoutcome",
+    "otherexplicitownersessionresolvedsecondrev6",
+    "resolvedrefreshwhole6/audit6identical;readonly retainedalternate note;no submit"
+  ],
+  "proofs": [
+    "qaita-f1-before-refresh.json",
+    "qaita-f1-after-refresh.json",
+    "qaita-f1-after-submit.json",
+    "qaita-f1-resolved-before-refresh.json",
+    "qaita-f1-resolved-after-refresh.json"
+  ],
+  "fixture_shutdown": "ownedps/cwd/command/listener andall5tablessaved;PID62162stopped",
+  "captures": [
+    "docs/f1-pending-refreshed-1280.jpg",
+    "docs/f1-resolved-retained-1280.jpg"
+  ]
+}

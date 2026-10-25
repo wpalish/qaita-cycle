@@ -1,0 +1,75 @@
+{
+  "product": "qaita-cycle",
+  "title": "QaitaCycle",
+  "reference": 16,
+  "version": "0.1.0",
+  "as_of": "2026-10-25T20:29:04.522022+00:00",
+  "tests": {
+    "passed": 24,
+    "failed": 0,
+    "log": "docs/test-output.txt"
+  },
+  "browser": {
+    "status": "ui_workflow_passed",
+    "synthetic_only": true,
+    "proof": "docs/browser-proof.json",
+    "desktop": "docs/current-zero-window-1280.jpg",
+    "actual_viewports": [
+      1280
+    ],
+    "mobile": "not_verified",
+    "external_action": false
+  },
+  "acceptance": [
+    "Initial preview19–25 planned3/off4;another explicit admin session created23–Nov1(4dates). Stale3refused wholeworkspace/auditunchanged,note/datesretained. Fresh19–25created2/kept1/off4.",
+    "Owneralpha explicitly completed19 andskipped21. Another admin changed draftownerbeta/time10,stale7result refused wholeworkspace/audit,note retained. FreshnativeTabReturncompleted23 onoldalpha09v1snapshot.",
+    "Publishedv2beta10,archivedresolved23;explicit zero-new window19–Nov1kept6/off8,new0,neverrevived23 or transferredoldalpha09. Archiveoldpub/routine blocksnewwindows,oldpendingretained.",
+    "Early future26result refused whole13/audit13,note retained. Refresh didnotmarkdone. Final1routine/2pubs/3windows/6occurrences/3outcomes,13/audit13;3pendingfuture.",
+    "14actualauthorizedHTTP400 preservedwhole13/audit13. Firstwindow/firstpubsnapshot/oldoccurrenceimmutablepayloadsexact.",
+    "Ownedrestart61500→61755 preservedwholeworkspace/audit/all5actualtables;33priorserverDBsunchanged. Browserreloadreadsamezero-window.",
+    "24passingdomain/storage/HTTPtests;nineactual1280capturesopened. Reviewverdictin docs/finish-review.json.",
+    "F1 isolatedlocalhostfixture:stale global revision4 refresh retained status/note,wholeworkspace/audit identical;explicit submit5 wrote once;another explicit owner session resolvedsecond date6,refresh6 identical and unsaved alternate text readonly/separate. Main13/audit13unchanged;UIonly,nomainrestart."
+  ],
+  "limits": [
+    "Syntheticmanualjournalonly;no Lindycode/brand/AI/LLM/backgroundscheduler/calendar/email/meeting/calls/externalintegrations/secrets/messages/payments/customerresults.",
+    "Weekdays1..7ascendingdistinct/timeHH:MM;publicationbothauthoredRU/KK/oneexistingaccount. Incompletedraftallowed,nofullintermediateversions.",
+    "FixedUTC+05:00,nottimezonedatabase/DST/history;inclusive1..31dates2020..2100,newlyscheduledorexistingdaterequired. Existingroutine+date beats evenchangedweekday,neverfreed.",
+    "Wholeexplicitwindowcreatesallornothing;zero-new savesdistinctledgerrecord. Existingowner/due/textremainold,archivenotresurrected. No reservation or automatic creation.",
+    "Owneronlycompleted/skipped once,at/afterdue+creation;adminnobypass. Manualassertionnotrealworkproof. Passingtime/GETnevercompletes. Noearlyskip/reopen/reversal/reassign/partialwindow.",
+    "Globalrevisioninclunrelatededits;globalUUIDwindows/outcomesreplayrefuses,notidempotentsuccess. Servergloballedgerseq/time/snapshots,clockrollbackrefuses. Preview/hashoptionalHTTP,nothumanreading.",
+    "Archiveroutine/pubclosesnewwindows;oldpendingcanresolveafterdue. Pendingoccurrencecannotarchive,resolvedarchivevisibilityonly. Windows/outcomescannotedit/archive.",
+    "Sharedstaffworkspace,nottentant. Adminroutines/pub/windows/archive/accounts/copies;staffownoutcomes. HTTPchecksaccountpresenceonsave/restore;trustedWorkStoreformat/domainonly.",
+    "UnsignedJSON/hashconsistencynotauthenticity/identity/historicalrights;accounts/auth/auditexcluded,emptyrestoreonly,HTTP2MB;largefullconsistentSQLitebackupseparate. NoUIpasswordreset/sessionrevocation.",
+    "Initial9actual1280captures historical beforeF1;2current1280F1captures and focused fix-list ship only. Mobile390/1440/touch/screenreader/fullsecurity/load/publicserverhosting/clientacceptanceunverified."
+  ],
+  "runtime": {
+    "pid": 61755,
+    "port": 8856,
+    "script": "work/program/run-qaita-cycle.mjs",
+    "before": "work/program/qaita-restart-before.json",
+    "after": "work/program/qaita-restart-after.json"
+  },
+  "preservation": {
+    "before": "work/program/qaita-prior-before.json",
+    "after": "work/program/qaita-prior-after.json",
+    "previous_servers": 33,
+    "own_tables_before": "work/program/qaita-tables-before.json",
+    "own_tables_after": "work/program/qaita-tables-after.json",
+    "own_table_count": 5,
+    "sabaqloop_owner_origin": "untouched"
+  },
+  "review": {
+    "status": "ship_for_F1_resolved",
+    "file": "docs/finish-review.json",
+    "static_detector": "One --json [] invocation,notbrowser/securitycleanbill",
+    "scope": "Initial9actual1280states+source found one F1 recovery issue;current focused verdict resolved F1 using2current1280captures/proofs. Not a new full UI/security audit."
+  },
+  "context_loading": "Builder context once atcorrectproductrootresolvedtargetPRODUCT;reportedproduct-schema-legacy,notmigratedunasked;inheritedDalelDESIGN/source read directly. Init can modernize schema if requested.",
+  "commercial": {
+    "potential_company_matches": 10,
+    "qualified_buyers": 0,
+    "interest_confirmed": 0,
+    "new_sends": 0
+  },
+  "release_note": "QaitaCycle reference16:publishedsyntheticweeklyrule,wholeexplicitdatewindowwithpermanentroutine+datededup,owneronlymanualcompleted/skippedafterdue.24tests;stale3/7retainsinput,overlap2new/1kept,zerowindow6keptincludingarchive,v2beta10neverrewrotealpha09;earlyfuture13refused.14HTTP400whole13/audit13;ownrestart/all5tables/33priorDBspreserved. Nine1280UIstatesonly,noLindy/AI/scheduler/external/customerclaim. UIreviewF1fixed:explicitrefreshretainsstatus/note;alreadyresolvedshowsreadonlyunsavedtextseparate. Fixture4→5→6,refreshwhole/auditunchanged,main13unchanged;focusedshipF1only."
+}

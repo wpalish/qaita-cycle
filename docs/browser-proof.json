@@ -1,0 +1,48 @@
+{
+  "product": "qaita-cycle",
+  "as_of": "2026-10-25T20:29:04.522022+00:00",
+  "actual_css_width": 1280,
+  "scroll_width": 1280,
+  "synthetic_only": true,
+  "flows": [
+    "Initial preview19–25 planned3/off4;another explicit admin session created23–Nov1(4dates). Stale3refused wholeworkspace/auditunchanged,note/datesretained. Fresh19–25created2/kept1/off4.",
+    "Owneralpha explicitly completed19 andskipped21. Another admin changed draftownerbeta/time10,stale7result refused wholeworkspace/audit,note retained. FreshnativeTabReturncompleted23 onoldalpha09v1snapshot.",
+    "Publishedv2beta10,archivedresolved23;explicit zero-new window19–Nov1kept6/off8,new0,neverrevived23 or transferredoldalpha09. Archiveoldpub/routine blocksnewwindows,oldpendingretained.",
+    "Early future26result refused whole13/audit13,note retained. Refresh didnotmarkdone. Final1routine/2pubs/3windows/6occurrences/3outcomes,13/audit13;3pendingfuture.",
+    "14actualauthorizedHTTP400 preservedwhole13/audit13. Firstwindow/firstpubsnapshot/oldoccurrenceimmutablepayloadsexact.",
+    "Ownedrestart61500→61755 preservedwholeworkspace/audit/all5actualtables;33priorserverDBsunchanged. Browserreloadreadsamezero-window."
+  ],
+  "keyboard": "NativeTab/Returnsubmitted owner result;focusH1/errornotice;native disclosure expanded;authoredinstructionKklangkk/UIru",
+  "stale_files": [
+    "qaita-stale3-before/after.json",
+    "qaita-stale7-before/after.json",
+    "qaita-early13-before/after.json"
+  ],
+  "http_refusals": "work/program/qaita-http-refusals.json",
+  "mobile_1440": "not_verified;priorunsupportedactualviewportbehaviornotretried",
+  "setup_failure": "One initial early-clock fixture set time before its own publication;fixed initial fixture time. No domain fix claimed;final24pass.",
+  "F1_recovery": {
+    "scenario": "F1 recovery after stale form or another explicit owner-session result",
+    "fixture_origin": "http://localhost:8899",
+    "main_origin": "http://127.0.0.1:8856",
+    "main_preserved": "wholeworkspace/audit13equalrestartafter",
+    "checks": [
+      "rev4refreshwholeworkspace/auditidentical,statuscompleted/noteexact",
+      "explicit submitrev5oneoutcome",
+      "otherexplicitownersessionresolvedsecondrev6",
+      "resolvedrefreshwhole6/audit6identical;readonly retainedalternate note;no submit"
+    ],
+    "proofs": [
+      "qaita-f1-before-refresh.json",
+      "qaita-f1-after-refresh.json",
+      "qaita-f1-after-submit.json",
+      "qaita-f1-resolved-before-refresh.json",
+      "qaita-f1-resolved-after-refresh.json"
+    ],
+    "fixture_shutdown": "ownedps/cwd/command/listener andall5tablessaved;PID62162stopped",
+    "captures": [
+      "docs/f1-pending-refreshed-1280.jpg",
+      "docs/f1-resolved-retained-1280.jpg"
+    ]
+  }
+}

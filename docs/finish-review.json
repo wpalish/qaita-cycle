@@ -1,0 +1,137 @@
+{
+  "scope": {
+    "product": "QaitaCycle v0.1",
+    "review_type": "fresh finish review of supplied UI captures and current source",
+    "target": "public/app.js",
+    "mode": "Operate",
+    "direction": "Narrow code-led extension of the inherited DalelCheck Shared Work Cabinet; preserve the navy shell, pale workspace, green explicit actions and native forms.",
+    "sources_read": [
+      "PRODUCT.md",
+      "AGENTS.md",
+      "public/app.js",
+      "public/styles.css",
+      "public/index.html",
+      ".impeccable/surfaces/public-app-js.md",
+      "../dalel-check/DESIGN.md",
+      "/Users/wpalish/.codex/skills/impeccable/reference/craft-floor.md"
+    ],
+    "captures_opened": [
+      ".impeccable/review/preview-1280.jpg",
+      ".impeccable/review/stale-window-1280.jpg",
+      ".impeccable/review/window-saved-1280.jpg",
+      ".impeccable/review/owner-form-1280.jpg",
+      ".impeccable/review/stale-outcome-1280.jpg",
+      ".impeccable/review/completed-1280.jpg",
+      ".impeccable/review/zero-preview-1280.jpg",
+      ".impeccable/review/zero-saved-1280.jpg",
+      ".impeccable/review/early-refusal-1280.jpg"
+    ],
+    "capture_validity": "All nine files opened and show the named full-page desktop states without blank regions, clipping or loading artifacts. Actual 1280 CSS px and scrollWidth 1280 were supplied by the builder; this reviewer did not drive a browser.",
+    "supplied_checks": "Builder reported RU UI, authored KK language nodes, title/error focus, native disclosure and Tab/Return result submission. Static detector output [] was supplied and was not rerun; it is not a browser or security verdict.",
+    "unverified": "390px/mobile, 1440px, touch, screen-reader, exhaustive keyboard/hover/loading/empty/overlong and all account/archive states; backend correctness, security, concurrency, restore authenticity, integrations and real outcomes.",
+    "implementation_edits": false,
+    "initial_capture_freshness": "The nine initial captures remain historical evidence of the pre-fix source; the F1 verdict pass does not retroactively make them captures of the edited source."
+  },
+  "strengths": [
+    {
+      "id": "S1",
+      "finding": "The inherited cabinet composition is coherent. Native labelled fields, restrained heading steps, flat white forms and a readable dated table serve this task without introducing a new visual world."
+    },
+    {
+      "id": "S2",
+      "finding": "Preview, refused write and saved window have explicit written states. The create/keep/off table precedes the one-time save, while the zero-new saved window visibly preserves alpha at 09:00 under the newer beta at 10:00 publication."
+    },
+    {
+      "id": "S3",
+      "finding": "Owner detail places the original bilingual instructions and due time before the manual-result form. Completion replaces that form with rationale, actor and ledger metadata, and the interface consistently describes the result as a manual assertion."
+    }
+  ],
+  "material_findings": [
+    {
+      "id": "F1",
+      "priority": "P2",
+      "title": "Stale-result recovery discards the retained rationale",
+      "evidence": [
+        "stale-outcome-1280.jpg retains the selected status and written rationale after the stale refusal and tells the user to refresh before saving.",
+        "public/app.js:35 binds the offered refresh to fetching state and calling occurrenceDetail again. That renderer creates the status select and rationale textarea with empty values, so following the recovery action discards both unsaved fields."
+      ],
+      "impact": "The refusal initially preserves user work, but its required recovery path makes the owner re-enter or manually copy the rationale. This leaves the surface contract that stale forms preserve rationale incomplete.",
+      "fix": "Retain the unsaved status and rationale across the explicit occurrence refresh. Rehydrate them only if the refreshed occurrence is still pending, unarchived and owned by the same account, then require a new explicit submit against the fresh revision. If another result already exists or editing is no longer allowed, show the retained unsaved text separately for copying without presenting it as the saved result.",
+      "verification": "With a filled owner form, cause an unrelated global revision change, submit to receive the stale refusal, activate the offered refresh, and confirm both fields survive when the occurrence remains eligible. Confirm refresh does not write a result and the later submit is still explicit. Capture the refreshed recovery state and an already-resolved recovery case.",
+      "status": "resolved",
+      "resolution": "The refresh callback captures the current status and rationale before fetching state. occurrenceDetail rehydrates them only in its eligible pending-owner form; otherwise it displays the retained text in a distinct read-only copy area without a result-submit control. The refreshed renderer captures the new state revision, and writing still requires a separate submit."
+    }
+  ],
+  "nonblocking_notes": [
+    {
+      "id": "N1",
+      "priority": "P3",
+      "finding": "The refresh and return buttons touch in occurrence states because they are appended directly without the inherited action-row gap.",
+      "suggestion": "Use the existing wrapping .actions container for these peer controls during a later polish pass."
+    },
+    {
+      "id": "N2",
+      "priority": "P3",
+      "finding": "Several authored interface sentences omit spaces after punctuation, including the window range helper and pending-result explanation.",
+      "suggestion": "Normalize spacing in interface copy when polishing; preserve user-authored snapshot and rationale text exactly."
+    }
+  ],
+  "disposition": {
+    "word": "ship",
+    "reason": "The reviewer scored F1 resolved using the edited source, two current recovery captures and supplied state/audit comparisons. This closes the one listed material fix; it is not a fresh whole-surface approval.",
+    "required_fix_ids": [],
+    "reviewed_fix_ids": [
+      "F1"
+    ],
+    "next_review": "No further F1 fix or recapture is owed. Continue the documentation handoff at the recorded evidence scope."
+  },
+  "review_history": [
+    {
+      "stage": "initial full supplied UI/source review",
+      "disposition": {
+        "word": "fix",
+        "reason": "One bounded source-confirmed recovery gap remains. No recapture or visual-world rebuild is required for the supplied evidence.",
+        "required_fix_ids": [
+          "F1"
+        ],
+        "next_review": "Verdict pass on F1 after one focused fix batch and relevant recaptures; no implementation changes were made by this reviewer."
+      }
+    }
+  ],
+  "verdict_passes": [
+    {
+      "stage": "focused verdict pass",
+      "scope": "F1 only; this is a fix-list verdict, not a new whole-surface review or backend readiness claim.",
+      "source_checked": "public/app.js occurrenceDetail(o, draft=null), including the refresh callback, eligible pending form and read-only retained text branch",
+      "scores": [
+        {
+          "id": "F1",
+          "score": "resolved",
+          "remaining_work": null
+        }
+      ],
+      "captures_opened": [
+        ".impeccable/review/f1-pending-refreshed-1280.jpg",
+        ".impeccable/review/f1-resolved-retained-1280.jpg"
+      ],
+      "capture_validity": "Both current full-page captures opened and show the named states without blank regions, overlap or clipping. Actual 1280 CSS px and scrollWidth 1280 were builder-reported; this reviewer did not drive a browser.",
+      "proof_files_compared": [
+        "work/program/qaita-f1-before-refresh.json",
+        "work/program/qaita-f1-after-refresh.json",
+        "work/program/qaita-f1-after-submit.json",
+        "work/program/qaita-f1-resolved-before-refresh.json",
+        "work/program/qaita-f1-resolved-after-refresh.json"
+      ],
+      "proof_path_base": "workspace root, three directories above this product",
+      "verified_from_supplied_proofs": [
+        "Pending before/after refresh proofs are wholly identical: state revision 4, audit event count 4 and no outcomes.",
+        "The separate explicit submit proof is revision 5 with audit event count 5 and one completed alpha outcome bearing the exact retained rationale visible in the pending capture.",
+        "Resolved before/after refresh proofs are wholly identical: state revision 6, audit event count 6 and the same two prior outcomes.",
+        "The resolved capture distinguishes the saved outcome from the retained alternative skipped status and rationale; source marks its textarea readOnly and supplies no outcome-submit form in this branch."
+      ],
+      "fixture_limit": "The builder supplied proofs from an isolated synthetic localhost:8899 fixture. The claimed untouched main revision/audit 13 was not independently inspected in this pass.",
+      "not_repeated": "No detector, browser interaction, broader defect hunt, implementation edit or expanded viewport review.",
+      "disposition": "ship"
+    }
+  ]
+}

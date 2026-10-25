@@ -1,0 +1,154 @@
+TAP version 13
+# Subtest: weekly publication fixes bilingual texts,existing-account-name owner,days,time and version
+ok 1 - weekly publication fixes bilingual texts,existing-account-name owner,days,time and version
+  ---
+  duration_ms: 2.578042
+  type: 'test'
+  ...
+# Subtest: incomplete draft allowed;publication requires both texts,canonical weekdays,time,owner
+ok 2 - incomplete draft allowed;publication requires both texts,canonical weekdays,time,owner
+  ---
+  duration_ms: 3.04225
+  type: 'test'
+  ...
+# Subtest: no-op keeps version;meaningful edits increment;publication version cannot repeat after archive
+ok 3 - no-op keeps version;meaningful edits increment;publication version cannot repeat after archive
+  ---
+  duration_ms: 1.077083
+  type: 'test'
+  ...
+# Subtest: inclusive Mon..Sun plan creates3/off4 in deterministic ascending order fixedUTC5
+ok 4 - inclusive Mon..Sun plan creates3/off4 in deterministic ascending order fixedUTC5
+  ---
+  duration_ms: 0.394791
+  type: 'test'
+  ...
+# Subtest: calendar validation and inclusive1..31 limit,leap day,year bounds and midnight offset
+ok 5 - calendar validation and inclusive1..31 limit,leap day,year bounds and midnight offset
+  ---
+  duration_ms: 0.389958
+  type: 'test'
+  ...
+# Subtest: whole window creates all selected immutable occurrences and exact decision snapshot
+ok 6 - whole window creates all selected immutable occurrences and exact decision snapshot
+  ---
+  duration_ms: 0.59025
+  type: 'test'
+  ...
+# Subtest: overlapping windows keep existing dates and add only new dates
+ok 7 - overlapping windows keep existing dates and add only new dates
+  ---
+  duration_ms: 0.796541
+  type: 'test'
+  ...
+# Subtest: zero-new window saves a distinct ledger record with no new rows,not silent success
+ok 8 - zero-new window saves a distinct ledger record with no new rows,not silent success
+  ---
+  duration_ms: 0.766875
+  type: 'test'
+  ...
+# Subtest: new publication owner/time/weekday never rewrites existing date;old date beats new off-day
+ok 9 - new publication owner/time/weekday never rewrites existing date;old date beats new off-day
+  ---
+  duration_ms: 1.171041
+  type: 'test'
+  ...
+# Subtest: archived resolved date keeps permanent key and never resurrects on later windows
+ok 10 - archived resolved date keeps permanent key and never resurrects on later windows
+  ---
+  duration_ms: 1.375209
+  type: 'test'
+  ...
+# Subtest: only admin generates/publishes;only immutable occurrence owner resolves,admin no bypass
+ok 11 - only admin generates/publishes;only immutable occurrence owner resolves,admin no bypass
+  ---
+  duration_ms: 1.331958
+  type: 'test'
+  ...
+# Subtest: done and skipped are distinct manual terminal records,one per occurrence
+ok 12 - done and skipped are distinct manual terminal records,one per occurrence
+  ---
+  duration_ms: 1.108959
+  type: 'test'
+  ...
+# Subtest: before exactdue refuses both statuses,at due accepted;GET/time itself never writes
+ok 13 - before exactdue refuses both statuses,at due accepted;GET/time itself never writes
+  ---
+  duration_ms: 0.962458
+  type: 'test'
+  ...
+# Subtest: global stale revision from unrelated draft refuses whole window and old result
+ok 14 - global stale revision from unrelated draft refuses whole window and old result
+  ---
+  duration_ms: 0.987709
+  type: 'test'
+  ...
+# Subtest: global UUID across windows/outcomes refuses replay even with fresh revision and archived date
+ok 15 - global UUID across windows/outcomes refuses replay even with fresh revision and archived date
+  ---
+  duration_ms: 1.306084
+  type: 'test'
+  ...
+# Subtest: client cannot supply dates,IDs,owner,due,snapshot,seq,time or actor
+ok 16 - client cannot supply dates,IDs,owner,due,snapshot,seq,time or actor
+  ---
+  duration_ms: 0.641125
+  type: 'test'
+  ...
+# Subtest: archive routine/publication closes new window,existing pending owner may resolve
+ok 17 - archive routine/publication closes new window,existing pending owner may resolve
+  ---
+  duration_ms: 1.037792
+  type: 'test'
+  ...
+# Subtest: pending cannot archive;window/outcome/direct occurrence edit forbidden;old snapshots retained
+ok 18 - pending cannot archive;window/outcome/direct occurrence edit forbidden;old snapshots retained
+  ---
+  duration_ms: 1.929834
+  type: 'test'
+  ...
+# Subtest: clock rollback before publication,last ledger event or occurrence creation refuses unchanged
+ok 19 - clock rollback before publication,last ledger event or occurrence creation refuses unchanged
+  ---
+  duration_ms: 0.788292
+  type: 'test'
+  ...
+# Subtest: two SQLite sessions race same window:stale whole refusal then fresh zero-new
+ok 20 - two SQLite sessions race same window:stale whole refusal then fresh zero-new
+  ---
+  duration_ms: 2.67325
+  type: 'test'
+  ...
+# Subtest: file restart and consistent SQLitebackup preserve full ledger,dates,snapshots,audit
+ok 21 - file restart and consistent SQLitebackup preserve full ledger,dates,snapshots,audit
+  ---
+  duration_ms: 4.185875
+  type: 'test'
+  ...
+# Subtest: emptyrestore preserves pending work and permanent keys;corrupt snapshots/ledger/report/owner/date refuse
+ok 22 - emptyrestore preserves pending work and permanent keys;corrupt snapshots/ledger/report/owner/date refuse
+  ---
+  duration_ms: 3.151708
+  type: 'test'
+  ...
+# Subtest: HTTP auth/role/Origin/CSRF/cookie/privacy and owner-only manual outcome
+ok 23 - HTTP auth/role/Origin/CSRF/cookie/privacy and owner-only manual outcome
+  ---
+  duration_ms: 174.674042
+  type: 'test'
+  ...
+# Subtest: HTTP enforces existing owner for routine save and all referenced owners before empty restore
+ok 24 - HTTP enforces existing owner for routine save and all referenced owners before empty restore
+  ---
+  duration_ms: 68.206417
+  type: 'test'
+  ...
+1..24
+# tests 24
+# suites 0
+# pass 24
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 319.690042

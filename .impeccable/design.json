@@ -1,0 +1,626 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T20:40:59.431383+00:00",
+  "title": "Design System: QaitaCycle",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "displayName": "Working Green",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.0820 173.03)",
+          "oklch(25% 0.0820 173.03)",
+          "oklch(35% 0.0820 173.03)",
+          "oklch(45% 0.0820 173.03)",
+          "oklch(60% 0.0820 173.03)",
+          "oklch(75% 0.0820 173.03)",
+          "oklch(85% 0.0820 173.03)",
+          "oklch(95% 0.0820 173.03)"
+        ]
+      },
+      "primary-hover": {
+        "displayName": "Deep Working Green",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.0718 173.05)",
+          "oklch(25% 0.0718 173.05)",
+          "oklch(35% 0.0718 173.05)",
+          "oklch(45% 0.0718 173.05)",
+          "oklch(60% 0.0718 173.05)",
+          "oklch(75% 0.0718 173.05)",
+          "oklch(85% 0.0718 173.05)",
+          "oklch(95% 0.0718 173.05)"
+        ]
+      },
+      "navy": {
+        "displayName": "Cabinet Navy",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.0733 248.44)",
+          "oklch(25% 0.0733 248.44)",
+          "oklch(35% 0.0733 248.44)",
+          "oklch(45% 0.0733 248.44)",
+          "oklch(60% 0.0733 248.44)",
+          "oklch(75% 0.0733 248.44)",
+          "oklch(85% 0.0733 248.44)",
+          "oklch(95% 0.0733 248.44)"
+        ]
+      },
+      "ink": {
+        "displayName": "Cabinet Ink",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0513 249.96)",
+          "oklch(25% 0.0513 249.96)",
+          "oklch(35% 0.0513 249.96)",
+          "oklch(45% 0.0513 249.96)",
+          "oklch(60% 0.0513 249.96)",
+          "oklch(75% 0.0513 249.96)",
+          "oklch(85% 0.0513 249.96)",
+          "oklch(95% 0.0513 249.96)"
+        ]
+      },
+      "page": {
+        "displayName": "Cool Workspace",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0093 242.84)",
+          "oklch(25% 0.0093 242.84)",
+          "oklch(35% 0.0093 242.84)",
+          "oklch(45% 0.0093 242.84)",
+          "oklch(60% 0.0093 242.84)",
+          "oklch(75% 0.0093 242.84)",
+          "oklch(85% 0.0093 242.84)",
+          "oklch(95% 0.0093 242.84)"
+        ]
+      },
+      "surface": {
+        "displayName": "White Surface",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(25% 0.0000 0.00)",
+          "oklch(35% 0.0000 0.00)",
+          "oklch(45% 0.0000 0.00)",
+          "oklch(60% 0.0000 0.00)",
+          "oklch(75% 0.0000 0.00)",
+          "oklch(85% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "line": {
+        "displayName": "Divider Blue",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0278 241.23)",
+          "oklch(25% 0.0278 241.23)",
+          "oklch(35% 0.0278 241.23)",
+          "oklch(45% 0.0278 241.23)",
+          "oklch(60% 0.0278 241.23)",
+          "oklch(75% 0.0278 241.23)",
+          "oklch(85% 0.0278 241.23)",
+          "oklch(95% 0.0278 241.23)"
+        ]
+      },
+      "navigation-surface": {
+        "displayName": "Navigation Mist",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0195 240.74)",
+          "oklch(25% 0.0195 240.74)",
+          "oklch(35% 0.0195 240.74)",
+          "oklch(45% 0.0195 240.74)",
+          "oklch(60% 0.0195 240.74)",
+          "oklch(75% 0.0195 240.74)",
+          "oklch(85% 0.0195 240.74)",
+          "oklch(95% 0.0195 240.74)"
+        ]
+      },
+      "muted": {
+        "displayName": "Supporting Slate",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0511 245.00)",
+          "oklch(25% 0.0511 245.00)",
+          "oklch(35% 0.0511 245.00)",
+          "oklch(45% 0.0511 245.00)",
+          "oklch(60% 0.0511 245.00)",
+          "oklch(75% 0.0511 245.00)",
+          "oklch(85% 0.0511 245.00)",
+          "oklch(95% 0.0511 245.00)"
+        ]
+      },
+      "input-stroke": {
+        "displayName": "Field Slate",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0456 242.07)",
+          "oklch(25% 0.0456 242.07)",
+          "oklch(35% 0.0456 242.07)",
+          "oklch(45% 0.0456 242.07)",
+          "oklch(60% 0.0456 242.07)",
+          "oklch(75% 0.0456 242.07)",
+          "oklch(85% 0.0456 242.07)",
+          "oklch(95% 0.0456 242.07)"
+        ]
+      },
+      "link": {
+        "displayName": "Link Blue",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.0980 249.12)",
+          "oklch(25% 0.0980 249.12)",
+          "oklch(35% 0.0980 249.12)",
+          "oklch(45% 0.0980 249.12)",
+          "oklch(60% 0.0980 249.12)",
+          "oklch(75% 0.0980 249.12)",
+          "oklch(85% 0.0980 249.12)",
+          "oklch(95% 0.0980 249.12)"
+        ]
+      },
+      "pending": {
+        "displayName": "Pending Amber",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0982 77.06)",
+          "oklch(25% 0.0982 77.06)",
+          "oklch(35% 0.0982 77.06)",
+          "oklch(45% 0.0982 77.06)",
+          "oklch(60% 0.0982 77.06)",
+          "oklch(75% 0.0982 77.06)",
+          "oklch(85% 0.0982 77.06)",
+          "oklch(95% 0.0982 77.06)"
+        ]
+      },
+      "error": {
+        "displayName": "Error Red",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.1458 27.85)",
+          "oklch(25% 0.1458 27.85)",
+          "oklch(35% 0.1458 27.85)",
+          "oklch(45% 0.1458 27.85)",
+          "oklch(60% 0.1458 27.85)",
+          "oklch(75% 0.1458 27.85)",
+          "oklch(85% 0.1458 27.85)",
+          "oklch(95% 0.1458 27.85)"
+        ]
+      },
+      "error-surface": {
+        "displayName": "Pale Error",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0165 26.65)",
+          "oklch(25% 0.0165 26.65)",
+          "oklch(35% 0.0165 26.65)",
+          "oklch(45% 0.0165 26.65)",
+          "oklch(60% 0.0165 26.65)",
+          "oklch(75% 0.0165 26.65)",
+          "oklch(85% 0.0165 26.65)",
+          "oklch(95% 0.0165 26.65)"
+        ]
+      },
+      "focus": {
+        "displayName": "Focus Amber",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.1375 55.87)",
+          "oklch(25% 0.1375 55.87)",
+          "oklch(35% 0.1375 55.87)",
+          "oklch(45% 0.1375 55.87)",
+          "oklch(60% 0.1375 55.87)",
+          "oklch(75% 0.1375 55.87)",
+          "oklch(85% 0.1375 55.87)",
+          "oklch(95% 0.1375 55.87)"
+        ]
+      },
+      "selection-surface": {
+        "displayName": "Soft Selection Green",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0441 174.61)",
+          "oklch(25% 0.0441 174.61)",
+          "oklch(35% 0.0441 174.61)",
+          "oklch(45% 0.0441 174.61)",
+          "oklch(60% 0.0441 174.61)",
+          "oklch(75% 0.0441 174.61)",
+          "oklch(85% 0.0441 174.61)",
+          "oklch(95% 0.0441 174.61)"
+        ]
+      },
+      "selection-ink": {
+        "displayName": "Selection Ink",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0360 177.75)",
+          "oklch(25% 0.0360 177.75)",
+          "oklch(35% 0.0360 177.75)",
+          "oklch(45% 0.0360 177.75)",
+          "oklch(60% 0.0360 177.75)",
+          "oklch(75% 0.0360 177.75)",
+          "oklch(85% 0.0360 177.75)",
+          "oklch(95% 0.0360 177.75)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "primary-heading": {
+        "displayName": "Task heading",
+        "purpose": "Fixed inherited heading for windows, occurrence details, publications and collections."
+      },
+      "section-heading": {
+        "displayName": "Section heading",
+        "purpose": "Exact snapshot, unsaved/refused/saved window, manual result and retained input."
+      },
+      "brand": {
+        "displayName": "Cabinet brand",
+        "purpose": "Inherited heavier identity in the navy header."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "System text, authored RU/KK instructions, date decisions and rationale."
+      },
+      "label": {
+        "displayName": "Control label",
+        "purpose": "Connected native field labels and explicit actions."
+      },
+      "supporting": {
+        "displayName": "Supporting text",
+        "purpose": "Manual-meaning boundaries, helpers, table headings and footer."
+      },
+      "preformatted": {
+        "displayName": "Data and audit source",
+        "purpose": "Smaller browser-native preformatted text in data/audit access."
+      }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": [
+      {
+        "name": "stacked-layout",
+        "value": "700px"
+      },
+      {
+        "name": "narrow-table-search",
+        "value": "600px"
+      }
+    ],
+    "documentationScope": {
+      "documentationMode": "scan of narrow inherited code-led extension",
+      "inheritsFrom": [
+        "../dalel-check/DESIGN.md",
+        "../dalel-check/.impeccable/design.json"
+      ],
+      "inheritedCommit": "8bb1213ca5fb564b5f766edbbb8892fb04440bff",
+      "sourceFiles": [
+        "public/app.js",
+        "public/styles.css",
+        "public/index.html"
+      ],
+      "productTruth": "PRODUCT.md",
+      "surfaceBrief": ".impeccable/surfaces/public-app-js.md",
+      "review": "docs/finish-review.json",
+      "provenance": "docs/capture-provenance.json",
+      "captureCount": 11,
+      "historicalCaptureCount": 9,
+      "currentFixCaptureCount": 2,
+      "actualReviewedWidth": 1280,
+      "scrollWidth": 1280,
+      "viewportAuthority": "Actual 1280 CSS px and scrollWidth 1280 supplied by the builder; raster dimensions independently checked. Documenter did not drive a browser.",
+      "reviewDisposition": "ship",
+      "reviewDispositionScope": "F1 only; fix-list verdict, not a new whole-surface approval.",
+      "initialDisposition": "fix",
+      "materialFindings": [
+        {
+          "id": "F1",
+          "status": "resolved",
+          "title": "Stale-result recovery discards the retained rationale"
+        }
+      ],
+      "captures": [
+        {
+          "file": "docs/zero-preview-1280.jpg",
+          "source": ".impeccable/review/zero-preview-1280.jpg",
+          "sha256": "c8946db4af9c0213c9c040df868da8d0087686086d34733583a076a09e150cfe",
+          "width": 1280,
+          "height": 1934,
+          "freshness": "historical pre-F1 source",
+          "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS"
+        },
+        {
+          "file": "docs/preview-1280.jpg",
+          "source": ".impeccable/review/preview-1280.jpg",
+          "sha256": "cfaac85a337731cdbda4739e86018ac602cc868cd8a0c7794f7aa9f9bd4a832b",
+          "width": 1280,
+          "height": 1592,
+          "freshness": "historical pre-F1 source",
+          "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS"
+        },
+        {
+          "file": "docs/owner-form-1280.jpg",
+          "source": ".impeccable/review/owner-form-1280.jpg",
+          "sha256": "fb4afd6d0bc6cfbbe7c4cd112bf25ab2e88e733751d94cb24713cb200fcfe4df",
+          "width": 1280,
+          "height": 1053,
+          "freshness": "historical pre-F1 source",
+          "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS"
+        },
+        {
+          "file": "docs/stale-outcome-1280.jpg",
+          "source": ".impeccable/review/stale-outcome-1280.jpg",
+          "sha256": "1ddacec9417c935b70197ed125b9c6ae27c649a9316902c60543c8bfdf7369a7",
+          "width": 1280,
+          "height": 1122,
+          "freshness": "historical pre-F1 source",
+          "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS"
+        },
+        {
+          "file": "docs/zero-saved-1280.jpg",
+          "source": ".impeccable/review/zero-saved-1280.jpg",
+          "sha256": "2b1ef7cd1f74e773c98fba6397a0cce84108fa4e6b0b9ce0d55fd948d1c69c3d",
+          "width": 1280,
+          "height": 1794,
+          "freshness": "historical pre-F1 source",
+          "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS"
+        },
+        {
+          "file": "docs/early-refusal-1280.jpg",
+          "source": ".impeccable/review/early-refusal-1280.jpg",
+          "sha256": "490210ec13adb4891a20a1e92cdef2b27bcf241d4ee6b9e01e1b37612dbd1540",
+          "width": 1280,
+          "height": 1122,
+          "freshness": "historical pre-F1 source",
+          "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS"
+        },
+        {
+          "file": "docs/completed-1280.jpg",
+          "source": ".impeccable/review/completed-1280.jpg",
+          "sha256": "e9c9db5e33a3b01068dc3ad112432c641f639f6232ee3f9ca9cc7ce00ef52e2b",
+          "width": 1280,
+          "height": 946,
+          "freshness": "historical pre-F1 source",
+          "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS"
+        },
+        {
+          "file": "docs/stale-window-1280.jpg",
+          "source": ".impeccable/review/stale-window-1280.jpg",
+          "sha256": "109d4a876e3198538b9bb61103d5960ec9875e0ea6b7896ac4d121357fa9fcb4",
+          "width": 1280,
+          "height": 1661,
+          "freshness": "historical pre-F1 source",
+          "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS"
+        },
+        {
+          "file": "docs/window-saved-1280.jpg",
+          "source": ".impeccable/review/window-saved-1280.jpg",
+          "sha256": "692e9a1df4066c2d13a77cf15db99029ccdd8a8637ad032cd5e2088b41fb142e",
+          "width": 1280,
+          "height": 1157,
+          "freshness": "historical pre-F1 source",
+          "origin": "Unedited full-page localIAB127.0.0.1:8856;actual1280CSS"
+        },
+        {
+          "file": "docs/f1-pending-refreshed-1280.jpg",
+          "source": ".impeccable/review/f1-pending-refreshed-1280.jpg",
+          "sha256": "25a4fd12cc8a9134f19cd8b10152600c0c68552a679051f52bbb8fe7ef4d1a54",
+          "width": 1280,
+          "height": 1053,
+          "freshness": "current F1 recovery branch",
+          "origin": "Unedited full-page isolated localhost:8899 synthetic fixture;actual1280CSS"
+        },
+        {
+          "file": "docs/f1-resolved-retained-1280.jpg",
+          "source": ".impeccable/review/f1-resolved-retained-1280.jpg",
+          "sha256": "e50465b428cb7acf10cd7454fdd364dcc7ab3b82fe7677b9bd97515f3120b5a6",
+          "width": 1280,
+          "height": 1199,
+          "freshness": "current F1 recovery branch",
+          "origin": "Unedited full-page isolated localhost:8899 synthetic fixture;actual1280CSS"
+        }
+      ],
+      "captureValidation": "All eleven full-page images opened without blank/clipped/loading regions. Every shipping docs JPEG byte-matches its review original and provenance hash. No pixel editing.",
+      "freshness": "Nine initial captures are historical pre-F1 evidence. Two F1 captures show the current eligible pending form and separate read-only retained recovery branch. No claim about current database contents follows.",
+      "f1ProofAuthority": "docs/finish-review.json records comparisons of supplied isolated synthetic localhost:8899 state/audit proofs: refresh left pending and resolved states unchanged, with a later separate explicit pending-owner submit. Documenter did not rerun comparisons.",
+      "contextRerun": true,
+      "detectorRerun": false,
+      "browserOrInteractionChecksRerun": false,
+      "backendTestsRerun": false,
+      "snippetBehavior": "Thirteen static self-contained synthetic examples with ds- classes, non-submitting action buttons and no application handlers. Native fields and disclosures keep ordinary browser behavior. Compact example windows use three dates; production renders every report row.",
+      "colorRampProvenance": "Inherited derived OKLCH inspection strips for the identical palette, not additional implemented UI colors.",
+      "nonblockingNotes": [
+        "Occurrence refresh and return peer buttons touch outside an action row.",
+        "Several interface sentences omit punctuation spacing; authored text must remain exact."
+      ],
+      "limits": [
+        "Actual 1280 desktop image evidence only.",
+        "390px/mobile, 1440px, touch, screen-reader and exhaustive keyboard/hover/loading/empty/overlong or all account/archive states unverified.",
+        "No backend, concurrency, isolation, restore authenticity, transport or security certification.",
+        "No calendar integration, notifications or real work/customer outcomes."
+      ],
+      "productBoundary": "Synthetic recurring work in one shared staff area without tenant isolation. Manual completed/skipped are owner assertions, not real performance evidence. Fixed UTC+05:00; no live Lindy, AI, calendar, external messages, payments or background scheduler."
+    },
+    "sourceEvidence": {
+      "palette": "public/styles.css:1-15",
+      "shell": "public/styles.css:26-62 and 417",
+      "type": "public/styles.css:63-77",
+      "fieldsPanelsButtons": "public/styles.css:84-143 and 377-393",
+      "selectionFocusDisclosure": "public/styles.css:225-250",
+      "responsiveTables": "public/styles.css:258-375",
+      "language": "public/app.js:4,28-29",
+      "collections": "public/app.js:24-26",
+      "publicationSnapshot": "public/app.js:29-31",
+      "wholeWindow": "public/app.js:32-34",
+      "manualResult": "public/app.js:35-44",
+      "retainedRecovery": "public/app.js:46-50",
+      "shellSemantics": "public/index.html:10-21; public/app.js:11-12"
+    }
+  },
+  "components": [
+    {
+      "name": "Explicit Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Green explicit action; a static non-submitting example of the whole-window command.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Создать всё окно один раз</button>",
+      "css": ".ds-primary { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; display:inline-block; min-height:44px; padding:.65rem 1rem; cursor:pointer; background:var(--teal,#126653); border:1px solid var(--teal,#126653); border-radius:7px; color:#fff; font-weight:600; text-decoration:none; } .ds-primary:hover { filter:brightness(1.13); background:#0b5343; } .ds-primary:focus-visible { outline:3px solid #bd671a; outline-offset:3px; } .ds-primary:disabled { cursor:not-allowed; opacity:.55; }"
+    },
+    {
+      "name": "Secondary Refresh Action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White/navy secondary action with inherited hover, focus and disabled treatments.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Обновить назначенную дату</button>",
+      "css": ".ds-secondary { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; display:inline-block; min-height:44px; padding:.65rem 1rem; cursor:pointer; background:#fff; border:1px solid var(--navy,#183e60); border-radius:7px; color:var(--navy,#183e60); font-weight:600; text-decoration:none; } .ds-secondary:hover { filter:brightness(1.13); } .ds-secondary:focus-visible { outline:3px solid #bd671a; outline-offset:3px; } .ds-secondary:disabled { cursor:not-allowed; opacity:.55; }"
+    },
+    {
+      "name": "Cabinet Collection Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-current",
+      "description": "Native wrapping collection buttons; current page is named independently of color. These static buttons do not navigate.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Разделы\"><button type=\"button\">Недельные правила</button><button type=\"button\">Публикации</button><button type=\"button\" aria-current=\"page\">Окна дат</button><button type=\"button\">Назначенные даты</button><button type=\"button\">Ручные результаты</button><button type=\"button\">Данные и доступ</button><button type=\"button\">Выйти</button></nav>",
+      "css": ".ds-nav { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; display:flex; flex-wrap:wrap; gap:.5rem; padding:.7rem 1.25rem; background:#dce9f3; border-bottom:1px solid var(--line,#b9cbd9); } .ds-nav button { font:inherit; min-height:44px; padding:.65rem 1rem; border:1px solid transparent; border-radius:7px; background:transparent; color:var(--navy,#183e60); font-weight:600; cursor:pointer; } .ds-nav [aria-current=\"page\"] { background:#fff; border-color:var(--line,#b9cbd9); } .ds-nav button:hover { filter:brightness(1.13); } .ds-nav button:focus-visible { outline:3px solid #bd671a; outline-offset:3px; }"
+    },
+    {
+      "name": "Labelled Native Date Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Connected visible label and native date field; date text uses tabular numerals.",
+      "html": "<section class=\"ds-field\"><label for=\"ds-native-date\">Первая дата</label><input id=\"ds-native-date\" type=\"date\" value=\"2026-10-19\" required></section>",
+      "css": ".ds-field { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; color:#172e45; } .ds-field p { max-width:72ch; line-height:1.6; margin:.5rem 0 1rem; overflow-wrap:anywhere; } .ds-field h2 { font-size:1.3rem; margin:2rem 0 .75rem; min-width:0; overflow-wrap:anywhere; } .ds-field .ds-muted { color:#46627a; font-size:.9rem; } .ds-field .ds-authored { white-space:pre-wrap; }.ds-field label { display:block; font-weight:600; margin:1rem 0 .35rem; } .ds-field label:first-child { margin-top:0; } .ds-field input,.ds-field textarea,.ds-field select { font:inherit; width:100%; padding:.7rem; border:1px solid #7894aa; border-radius:7px; background:#fff; color:inherit; caret-color:#174e7e; } .ds-field textarea { min-height:100px; resize:vertical; } .ds-field input[type=\"date\"] { font-variant-numeric:tabular-nums; } .ds-field input:focus-visible,.ds-field textarea:focus-visible,.ds-field select:focus-visible { outline:3px solid #bd671a; outline-offset:3px; } .ds-field textarea::selection { background:#b7ded2; color:#132f29; }"
+    },
+    {
+      "name": "Window Entry Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "White labelled native panel before a dated preview. Static action button has no handler.",
+      "html": "<section class=\"ds-window-panel\"><label for=\"ds-window-publication\">Публикация</label><select id=\"ds-window-publication\" required><option>SYN_WEEK · v1 · alpha</option></select><label for=\"ds-window-from\">Первая дата</label><input id=\"ds-window-from\" type=\"date\" value=\"2026-10-19\" required><label for=\"ds-window-to\">Последняя дата</label><input id=\"ds-window-to\" type=\"date\" value=\"2026-10-21\" required><label for=\"ds-window-note\">Основание создания окна</label><textarea id=\"ds-window-note\" required>SYN: явно создаю вымышленное окно дат.</textarea><button class=\"ds-window-preview\" type=\"button\">Проверить все даты</button></section>",
+      "css": ".ds-window-panel { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; color:#172e45; } .ds-window-panel p { max-width:72ch; line-height:1.6; margin:.5rem 0 1rem; overflow-wrap:anywhere; } .ds-window-panel h2 { font-size:1.3rem; margin:2rem 0 .75rem; min-width:0; overflow-wrap:anywhere; } .ds-window-panel .ds-muted { color:#46627a; font-size:.9rem; } .ds-window-panel .ds-authored { white-space:pre-wrap; }.ds-window-panel { background:#fff; border:1px solid var(--line,#b9cbd9); border-radius:12px; padding:1.4rem; min-width:0; }.ds-window-panel label { display:block; font-weight:600; margin:1rem 0 .35rem; } .ds-window-panel label:first-child { margin-top:0; } .ds-window-panel input,.ds-window-panel textarea,.ds-window-panel select { font:inherit; width:100%; padding:.7rem; border:1px solid #7894aa; border-radius:7px; background:#fff; color:inherit; caret-color:#174e7e; } .ds-window-panel textarea { min-height:100px; resize:vertical; } .ds-window-panel input[type=\"date\"] { font-variant-numeric:tabular-nums; } .ds-window-panel input:focus-visible,.ds-window-panel textarea:focus-visible,.ds-window-panel select:focus-visible { outline:3px solid #bd671a; outline-offset:3px; } .ds-window-panel textarea::selection { background:#b7ded2; color:#132f29; }.ds-window-preview { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; display:inline-block; min-height:44px; padding:.65rem 1rem; cursor:pointer; background:var(--teal,#126653); border:1px solid var(--teal,#126653); border-radius:7px; color:#fff; font-weight:600; text-decoration:none; } .ds-window-preview:hover { filter:brightness(1.13); background:#0b5343; } .ds-window-preview:focus-visible { outline:3px solid #bd671a; outline-offset:3px; } .ds-window-preview:disabled { cursor:not-allowed; opacity:.55; }"
+    },
+    {
+      "name": "Native Record Table",
+      "kind": "card",
+      "refersTo": "record-table",
+      "description": "Focusable scrolling native table, five scoped headings and a static secondary open control.",
+      "html": "<div class=\"ds-record-table\" tabindex=\"0\" aria-label=\"Таблица записей; горизонтальная прокрутка.\"><table><thead><tr><th scope=\"col\">Запись</th><th scope=\"col\">Владелец / период</th><th scope=\"col\">Состояние / срок</th><th scope=\"col\">Контекст</th><th scope=\"col\">Действие</th></tr></thead><tbody><tr><td>Окно #2</td><td>2026-10-19 — 2026-10-25</td><td>Новых 2 · прежних 1</td><td>coordinator</td><td><button class=\"ds-record-open\" type=\"button\">Открыть</button></td></tr></tbody></table></div>",
+      "css": ".ds-record-table { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; color:#172e45; } .ds-record-table p { max-width:72ch; line-height:1.6; margin:.5rem 0 1rem; overflow-wrap:anywhere; } .ds-record-table h2 { font-size:1.3rem; margin:2rem 0 .75rem; min-width:0; overflow-wrap:anywhere; } .ds-record-table .ds-muted { color:#46627a; font-size:.9rem; } .ds-record-table .ds-authored { white-space:pre-wrap; }.ds-record-table { overflow:auto; margin-top:1rem; border:1px solid var(--line,#b9cbd9); border-radius:12px; background:#fff; } .ds-record-table table { border-collapse:collapse; width:100%; font-variant-numeric:tabular-nums; } .ds-record-table th,.ds-record-table td { text-align:left; padding:.9rem; vertical-align:top; border-bottom:1px solid var(--line,#b9cbd9); overflow-wrap:anywhere; max-width:28ch; } .ds-record-table th { background:#dce9f3; font-size:.9rem; } .ds-record-table tr:last-child td { border-bottom:0; } .ds-record-table:focus-visible { outline:3px solid #bd671a; outline-offset:3px; }.ds-record-open { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; display:inline-block; min-height:44px; padding:.65rem 1rem; cursor:pointer; background:#fff; border:1px solid var(--navy,#183e60); border-radius:7px; color:var(--navy,#183e60); font-weight:600; text-decoration:none; } .ds-record-open:hover { filter:brightness(1.13); } .ds-record-open:focus-visible { outline:3px solid #bd671a; outline-offset:3px; } .ds-record-open:disabled { cursor:not-allowed; opacity:.55; }.ds-record-table td button { white-space:nowrap; }"
+    },
+    {
+      "name": "Exact Published Rule Disclosure",
+      "kind": "custom",
+      "refersTo": "snapshot-disclosure",
+      "description": "Native exact-rule disclosure preserves authored RU and KK nodes before the historical decision table.",
+      "html": "<section class=\"ds-snapshot\"><details open><summary>Точное опубликованное правило</summary><h2>SYN_WEEK · v1</h2><p>Вымышленная недельная проверка</p><p class=\"ds-authored\" lang=\"ru\">Вручную проверить вымышленный макет и записать основание. Это не реальная услуга.</p><p class=\"ds-authored\" lang=\"kk\">Ойдан шығарылған макетті қолмен тексеріп, негіздемені жазу. Бұл нақты қызмет емес.</p><p>Владелец alpha · дни Пн, Ср, Пт · 09:00 +05:00</p></details></section>",
+      "css": ".ds-snapshot { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; color:#172e45; } .ds-snapshot p { max-width:72ch; line-height:1.6; margin:.5rem 0 1rem; overflow-wrap:anywhere; } .ds-snapshot h2 { font-size:1.3rem; margin:2rem 0 .75rem; min-width:0; overflow-wrap:anywhere; } .ds-snapshot .ds-muted { color:#46627a; font-size:.9rem; } .ds-snapshot .ds-authored { white-space:pre-wrap; }.ds-snapshot details { margin-top:1rem; min-width:0; overflow-wrap:anywhere; } .ds-snapshot summary { cursor:pointer; min-height:44px; display:list-item; padding:.7rem 0; } .ds-snapshot summary:focus-visible { outline:3px solid #bd671a; outline-offset:3px; }"
+    },
+    {
+      "name": "Unsaved Date Decisions",
+      "kind": "custom",
+      "refersTo": "record-table",
+      "description": "Three-date synthetic window with every decision before its explicit save; production renders all dates in the requested window.",
+      "html": "<section class=\"ds-plan\"><h2>Предпросмотр дат · ещё не записано</h2><p>К созданию 2 · прежних 0 · неназначенных дней 1</p><p class=\"ds-muted\">Прежний ключ правила и даты сохраняет старого владельца,срок и тексты,включая архив. Это окно не резервирует время в настоящем календаре.</p><div class=\"ds-plan-table\" tabindex=\"0\" aria-label=\"Решение по каждой дате\"><table><thead><tr><th scope=\"col\">Дата</th><th scope=\"col\">Решение</th><th scope=\"col\">Владелец</th><th scope=\"col\">Исходный срок +05:00</th></tr></thead><tbody><tr><td>2026-10-19 · Пн</td><td>Создать дату</td><td>alpha</td><td>2026-10-19 09:00 +05:00</td></tr><tr><td>2026-10-20 · Вт</td><td>Не назначено этим правилом</td><td>—</td><td>—</td></tr><tr><td>2026-10-21 · Ср</td><td>Создать дату</td><td>alpha</td><td>2026-10-21 09:00 +05:00</td></tr></tbody></table></div><button class=\"ds-plan-save\" type=\"button\">Создать всё окно один раз</button></section>",
+      "css": ".ds-plan { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; color:#172e45; } .ds-plan p { max-width:72ch; line-height:1.6; margin:.5rem 0 1rem; overflow-wrap:anywhere; } .ds-plan h2 { font-size:1.3rem; margin:2rem 0 .75rem; min-width:0; overflow-wrap:anywhere; } .ds-plan .ds-muted { color:#46627a; font-size:.9rem; } .ds-plan .ds-authored { white-space:pre-wrap; }.ds-plan { border-top:1px solid var(--line,#b9cbd9); padding-top:1rem; margin-top:1rem; display:grid; gap:.4rem; }.ds-plan-table { overflow:auto; margin-top:1rem; border:1px solid var(--line,#b9cbd9); border-radius:12px; background:#fff; } .ds-plan-table table { border-collapse:collapse; width:100%; font-variant-numeric:tabular-nums; } .ds-plan-table th,.ds-plan-table td { text-align:left; padding:.9rem; vertical-align:top; border-bottom:1px solid var(--line,#b9cbd9); overflow-wrap:anywhere; max-width:28ch; } .ds-plan-table th { background:#dce9f3; font-size:.9rem; } .ds-plan-table tr:last-child td { border-bottom:0; } .ds-plan-table:focus-visible { outline:3px solid #bd671a; outline-offset:3px; }.ds-plan-save { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; display:inline-block; min-height:44px; padding:.65rem 1rem; cursor:pointer; background:var(--teal,#126653); border:1px solid var(--teal,#126653); border-radius:7px; color:#fff; font-weight:600; text-decoration:none; } .ds-plan-save:hover { filter:brightness(1.13); background:#0b5343; } .ds-plan-save:focus-visible { outline:3px solid #bd671a; outline-offset:3px; } .ds-plan-save:disabled { cursor:not-allowed; opacity:.55; }"
+    },
+    {
+      "name": "Zero-New Saved Window",
+      "kind": "custom",
+      "refersTo": "record-table",
+      "description": "Synthetic saved three-date example keeps alpha/09:00 while its exact newer publication names beta/10:00. No save control remains.",
+      "html": "<section class=\"ds-zero\"><p>coordinator · 2026-10-25T20:25:17.849Z</p><p>SYN: новое правило не переносит уже существующие даты.</p><details open><summary>Точное опубликованное правило</summary><h2>SYN_WEEK · v2</h2><p>Вымышленная недельная проверка</p><p class=\"ds-authored\" lang=\"ru\">Вручную проверить вымышленный макет и записать основание. Это не реальная услуга.</p><p class=\"ds-authored\" lang=\"kk\">Ойдан шығарылған макетті қолмен тексеріп, негіздемені жазу. Бұл нақты қызмет емес.</p><p>Владелец beta · дни Пн, Ср, Пт · 10:00 +05:00</p></details><h2>Сохранённое целое окно</h2><p>Создано 0 · прежних 2 · неназначенных дней 1</p><p class=\"ds-muted\">Прежний ключ правила и даты сохраняет старого владельца,срок и тексты,включая архив. Это окно не резервирует время в настоящем календаре.</p><div class=\"ds-zero-table\" tabindex=\"0\" aria-label=\"Решение по каждой дате\"><table><thead><tr><th scope=\"col\">Дата</th><th scope=\"col\">Решение</th><th scope=\"col\">Владелец</th><th scope=\"col\">Исходный срок +05:00</th></tr></thead><tbody><tr><td>2026-10-19 · Пн</td><td>Сохранить прежнюю дату</td><td>alpha</td><td>2026-10-19 09:00 +05:00</td></tr><tr><td>2026-10-20 · Вт</td><td>Не назначено этим правилом</td><td>—</td><td>—</td></tr><tr><td>2026-10-21 · Ср</td><td>Сохранить прежнюю дату</td><td>alpha</td><td>2026-10-21 09:00 +05:00</td></tr></tbody></table></div><p class=\"ds-muted\">Добавленные даты: 0. Сохранённое решение не меняется после новой версии или архивов.</p></section>",
+      "css": ".ds-zero { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; color:#172e45; } .ds-zero p { max-width:72ch; line-height:1.6; margin:.5rem 0 1rem; overflow-wrap:anywhere; } .ds-zero h2 { font-size:1.3rem; margin:2rem 0 .75rem; min-width:0; overflow-wrap:anywhere; } .ds-zero .ds-muted { color:#46627a; font-size:.9rem; } .ds-zero .ds-authored { white-space:pre-wrap; }.ds-zero details { margin-top:1rem; min-width:0; overflow-wrap:anywhere; } .ds-zero summary { cursor:pointer; min-height:44px; display:list-item; padding:.7rem 0; } .ds-zero summary:focus-visible { outline:3px solid #bd671a; outline-offset:3px; }.ds-zero-table { overflow:auto; margin-top:1rem; border:1px solid var(--line,#b9cbd9); border-radius:12px; background:#fff; } .ds-zero-table table { border-collapse:collapse; width:100%; font-variant-numeric:tabular-nums; } .ds-zero-table th,.ds-zero-table td { text-align:left; padding:.9rem; vertical-align:top; border-bottom:1px solid var(--line,#b9cbd9); overflow-wrap:anywhere; max-width:28ch; } .ds-zero-table th { background:#dce9f3; font-size:.9rem; } .ds-zero-table tr:last-child td { border-bottom:0; } .ds-zero-table:focus-visible { outline:3px solid #bd671a; outline-offset:3px; }"
+    },
+    {
+      "name": "Pending Owner Result Form",
+      "kind": "input",
+      "refersTo": "panel",
+      "description": "Current pending-owner structure with retained values. This static example does not submit and does not imply that due time alone saves anything.",
+      "html": "<section class=\"ds-owner\"><p>Владелец alpha · срок 2026-10-19 09:00 +05:00</p><h2>Ожидает ручного результата</h2><p class=\"ds-owner-pending\">Срок наступил;это не отметка выполнения.</p><section class=\"ds-owner-panel\"><label for=\"ds-owner-status\">Ручной результат</label><select id=\"ds-owner-status\" required><option>Выберите значение</option><option selected>Выполнение отмечено вручную</option><option>Пропуск отмечен вручную</option></select><label for=\"ds-owner-note\">Основание результата</label><textarea id=\"ds-owner-note\" required>SYN-F1: введённое основание должно пережить обновление без автоматической записи.</textarea><button class=\"ds-owner-save\" type=\"button\">Записать результат один раз</button></section></section>",
+      "css": ".ds-owner { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; color:#172e45; } .ds-owner p { max-width:72ch; line-height:1.6; margin:.5rem 0 1rem; overflow-wrap:anywhere; } .ds-owner h2 { font-size:1.3rem; margin:2rem 0 .75rem; min-width:0; overflow-wrap:anywhere; } .ds-owner .ds-muted { color:#46627a; font-size:.9rem; } .ds-owner .ds-authored { white-space:pre-wrap; }.ds-owner-pending { color:var(--amber,#795200); }.ds-owner-panel { background:#fff; border:1px solid var(--line,#b9cbd9); border-radius:12px; padding:1.4rem; min-width:0; }.ds-owner-panel label { display:block; font-weight:600; margin:1rem 0 .35rem; } .ds-owner-panel label:first-child { margin-top:0; } .ds-owner-panel input,.ds-owner-panel textarea,.ds-owner-panel select { font:inherit; width:100%; padding:.7rem; border:1px solid #7894aa; border-radius:7px; background:#fff; color:inherit; caret-color:#174e7e; } .ds-owner-panel textarea { min-height:100px; resize:vertical; } .ds-owner-panel input[type=\"date\"] { font-variant-numeric:tabular-nums; } .ds-owner-panel input:focus-visible,.ds-owner-panel textarea:focus-visible,.ds-owner-panel select:focus-visible { outline:3px solid #bd671a; outline-offset:3px; } .ds-owner-panel textarea::selection { background:#b7ded2; color:#132f29; }.ds-owner-save { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; display:inline-block; min-height:44px; padding:.65rem 1rem; cursor:pointer; background:var(--teal,#126653); border:1px solid var(--teal,#126653); border-radius:7px; color:#fff; font-weight:600; text-decoration:none; } .ds-owner-save:hover { filter:brightness(1.13); background:#0b5343; } .ds-owner-save:focus-visible { outline:3px solid #bd671a; outline-offset:3px; } .ds-owner-save:disabled { cursor:not-allowed; opacity:.55; }"
+    },
+    {
+      "name": "Saved Manual Outcome",
+      "kind": "custom",
+      "refersTo": "panel",
+      "description": "Saved synthetic manual assertion shows rationale, actor, time and ledger number with no outcome-submit control.",
+      "html": "<section class=\"ds-outcome\"><h2>Выполнение отмечено вручную</h2><p>SYN-F1: другая явная сессия владельца записала отдельный результат.</p><p>alpha · 2026-10-25T20:34:47.117Z · запись журнала #3</p><p class=\"ds-muted\">Однократное ручное заявление. Оно не доказывает реальную работу;изменения,отмены и повторного открытия нет.</p></section>",
+      "css": ".ds-outcome { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; color:#172e45; } .ds-outcome p { max-width:72ch; line-height:1.6; margin:.5rem 0 1rem; overflow-wrap:anywhere; } .ds-outcome h2 { font-size:1.3rem; margin:2rem 0 .75rem; min-width:0; overflow-wrap:anywhere; } .ds-outcome .ds-muted { color:#46627a; font-size:.9rem; } .ds-outcome .ds-authored { white-space:pre-wrap; }"
+    },
+    {
+      "name": "Focused Request Refusal",
+      "kind": "custom",
+      "refersTo": "error-notice",
+      "description": "Written refusal notice retains status/live-region semantics and a programmatic focus target. Static snippet does not move focus.",
+      "html": "<div class=\"ds-error-notice\" role=\"status\" aria-live=\"polite\" tabindex=\"-1\">Данные изменились в другой вкладке. Обновите экран перед сохранением.</div>",
+      "css": ".ds-error-notice { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; color:#942721; background:#fff0ee; border:1px solid var(--line,#b9cbd9); padding:1rem; border-radius:7px; margin-bottom:1rem; } .ds-error-notice:focus-visible { outline:3px solid #bd671a; outline-offset:3px; }"
+    },
+    {
+      "name": "Read-Only Unsaved Recovery",
+      "kind": "input",
+      "refersTo": "panel",
+      "description": "Current F1 recovery panel for an ineligible or already resolved occurrence. Retained text is for copying and is separate from the saved outcome; no outcome-submit control.",
+      "html": "<section class=\"ds-retained\"><h2>Несохранённый ввод после обновления</h2><p class=\"ds-muted\">Эти значения сохранены только на экране для копирования. Они не заменяют записанный результат и не отправляются автоматически.</p><p>Выбранный ранее результат: Пропуск отмечен вручную</p><label for=\"ds-retained-note\">Несохранённое основание</label><textarea id=\"ds-retained-note\" readonly>SYN-F1: несохранённый альтернативный текст для копирования, не записанный результат.</textarea></section>",
+      "css": ".ds-retained { font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif; color:#172e45; } .ds-retained p { max-width:72ch; line-height:1.6; margin:.5rem 0 1rem; overflow-wrap:anywhere; } .ds-retained h2 { font-size:1.3rem; margin:2rem 0 .75rem; min-width:0; overflow-wrap:anywhere; } .ds-retained .ds-muted { color:#46627a; font-size:.9rem; } .ds-retained .ds-authored { white-space:pre-wrap; }.ds-retained { background:#fff; border:1px solid var(--line,#b9cbd9); border-radius:12px; padding:1.4rem; min-width:0; }.ds-retained label { display:block; font-weight:600; margin:1rem 0 .35rem; } .ds-retained label:first-child { margin-top:0; } .ds-retained input,.ds-retained textarea,.ds-retained select { font:inherit; width:100%; padding:.7rem; border:1px solid #7894aa; border-radius:7px; background:#fff; color:inherit; caret-color:#174e7e; } .ds-retained textarea { min-height:100px; resize:vertical; } .ds-retained input[type=\"date\"] { font-variant-numeric:tabular-nums; } .ds-retained input:focus-visible,.ds-retained textarea:focus-visible,.ds-retained select:focus-visible { outline:3px solid #bd671a; outline-offset:3px; } .ds-retained textarea::selection { background:#b7ded2; color:#132f29; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Shared Work Cabinet",
+    "overview": "QaitaCycle extends the project's own DalelCheck Shared Work Cabinet: navy identity and navigation, a pale blue workspace, white labelled native forms, green explicit actions and system typography. The owned incumbent authority is the [DalelCheck design system](../dalel-check/DESIGN.md) and [sidecar](../dalel-check/.impeccable/design.json), pinned to own-source commit `8bb1213ca5fb564b5f766edbbb8892fb04440bff`. The settled inherited direction supplies the qualitative language for this scan; no new visual-world workshop or image comp is introduced.\n\nIts character is flat, direct and readable. A full dated decision table separates an unsaved window from a saved record. An occurrence keeps its original owner, due time and authored RU/KK instructions above a once-only manual-result form. Written labels distinguish waiting, refusal, saved assertions and retained unsaved input. These are synthetic working records; a due date or manual result does not establish real work.",
+    "keyCharacteristics": [
+      "Inherited navy shell, cool workspace and flat white native controls.",
+      "Restrained system type, visible labels and a readable dated table.",
+      "Authored bilingual snapshots remain visible before manual actions.",
+      "Explicit unsaved, refused, saved and retained-input states.",
+      "Native focus, text selection, date fields, selects and disclosures."
+    ],
+    "rules": [
+      {
+        "name": "The Inherited Shell Rule",
+        "body": "Extend the existing Shared Work Cabinet palette, type and native control grammar.",
+        "section": "colors"
+      },
+      {
+        "name": "The Authored Text Rule",
+        "body": "Preserve authored RU/KK text, language nodes and visible line breaks; do not silently rewrite a historical instruction or rationale.",
+        "section": "typography"
+      },
+      {
+        "name": "The Snapshot Rule",
+        "body": "Keep the displayed publication and original occurrence snapshot explicit; a newer version never visually replaces an older date's owner, time or instructions.",
+        "section": "components"
+      },
+      {
+        "name": "The Written State Rule",
+        "body": "Name unsaved, refused and saved states in text; counts, color and a preview alone never assert that a write occurred.",
+        "section": "components"
+      },
+      {
+        "name": "The Unsaved Recovery Rule",
+        "body": "Preserve unsaved input across explicit refresh, but display ineligible retained text separately from the saved record and require a new explicit action for any eligible write.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do retain the inherited navy shell, pale workspace, green explicit actions and white native controls.",
+      "Do keep connected labels, visible focus, native disclosure markers and column-scoped table headers.",
+      "Do preserve authored RU/KK instructions, language attributes, rationale and visible line breaks.",
+      "Do show original owner, due time and publication version before the manual-result action.",
+      "Do place every date decision before the explicit whole-window save.",
+      "Do distinguish unsaved preview, refused write, saved window and manual outcome in words.",
+      "Do keep zero-new saved windows and the old owner/time of kept dates visible.",
+      "Do retain status and rationale across explicit occurrence refresh.",
+      "Do separate read-only retained unsaved text from a saved outcome when editing is unavailable.",
+      "Do let long text and digests wrap without a fixed-height crop."
+    ],
+    "donts": [
+      "Don't replace the inherited identity with ornamental media, display lettering or animation.",
+      "Don't replace native dates, selects, tables or disclosures with decorative imitations.",
+      "Don't present a preview or retained rationale as a saved record.",
+      "Don't present elapsed time, refresh or a manual result as proof of real work.",
+      "Don't display a newer rule's owner/time as the original obligation of a kept date.",
+      "Don't offer outcome edit, reopen, reversal or an administrator authorship bypass.",
+      "Don't imply a real calendar, notifications, AI, external messaging or customer outcomes.",
+      "Don't describe a digest or this visual packet as authenticity or security certification.",
+      "Don't call the F1-only verdict a fresh whole-surface approval.",
+      "Don't claim mobile/390px, 1440px, touch, screen-reader or exhaustive keyboard verification from these 1280px captures."
+    ]
+  }
+}
